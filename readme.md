@@ -3,6 +3,18 @@
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
+![Model](https://img.shields.io/badge/Model-DeBERTa--v3--Large-purple.svg)
+![Task](https://img.shields.io/badge/Task-Text%20Classification-green.svg)
+![Competition](https://img.shields.io/badge/Kaggle-Top%2010-blue.svg)
+![License](https://img.shields.io/badge/License-Academic%20Use-lightgrey.svg)
+
+---
+
+---
+
 ## Abstract
 
 This repository presents a complete deep learning pipeline for detecting extremist content in social media text.  
@@ -218,10 +230,11 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 ```
 ## 12. Limitations
+`
 👉The model may struggle with extremely short or context-free messages
 👉Cultural and regional slang not present in training data can affect accuracy
 👉Binary classification does not capture degrees or categories of extremism
-
+`
 ## 13. Conclusion
 
 This project demonstrates that robust extremism detection requires more than keyword filtering.
