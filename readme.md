@@ -32,19 +32,21 @@ The approach focuses on contextual understanding, robustness to noisy language, 
 
 ## Table of Contents
 
-1. Introduction  
-2. Problem Definition  
-3. Challenges in Extremism Detection  
-4. Methodology  
-5. Model Architecture  
-6. Text Preprocessing  
-7. Training Strategy  
-8. Inference Pipeline  
-9. Experimental Results  
-10. Repository Structure  
-11. Setup and Usage  
-12. Limitations  
-13. Conclusion    
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+2. [Problem Definition](#2-problem-definition)
+3. [Challenges in Extremism Detection](#3-challenges-in-extremism-detection)
+4. [Methodology](#4-methodology)
+5. [Model Architecture](#5-model-architecture)
+6. [Text Preprocessing](#6-text-preprocessing)
+7. [Training Strategy](#7-training-strategy)
+8. [Inference Pipeline](#8-inference-pipeline)
+9. [Experimental Results](#9-experimental-results)
+10. [Repository Structure](#10-repository-structure)
+11. [Setup and Usage](#11-setup-and-usage)
+12. [Limitations](#12-limitations)
+13. [Conclusion](#13-conclusion)  
 
 ---
 
