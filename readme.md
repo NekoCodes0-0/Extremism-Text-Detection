@@ -6,10 +6,15 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
-![Model](https://img.shields.io/badge/Model-DeBERTa--v3--Large-purple.svg)
+![Model](https://img.shields.io/badge/Model-DeBERTa--v3--base-purple.svg)
 ![Task](https://img.shields.io/badge/Task-Text%20Classification-green.svg)
 ![Competition](https://img.shields.io/badge/Kaggle-Top%2010-blue.svg)
-![License](https://img.shields.io/badge/License-Academic%20Use-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT%20Use-lightgrey.svg)
+![Dataset](https://img.shields.io/badge/Dataset-Social%20Media%20Extremism-orange.svg)
+![Evaluation](https://img.shields.io/badge/Evaluation-Kaggle%20Leaderboard-blue.svg)
+![Seeded](https://img.shields.io/badge/Seed-Fixed-success.svg)
+![Deterministic](https://img.shields.io/badge/CUDA-Deterministic-blue.svg)
+![Inference](https://img.shields.io/badge/Inference-Standalone-green.svg)
 
 ---
 
@@ -111,6 +116,34 @@ The solution is built around a large pretrained language model combined with sev
 - Confidence smoothing during optimization
 
 The goal is not only high accuracy but **robust decision boundaries**.
+
+### Technologies and Tools Used
+
+### Core Frameworks
+- **Python** (3.9+)
+- **PyTorch** (2.x)
+- **Hugging Face Transformers**
+
+### Model Architecture
+- **DeBERTa-v3-base**
+- Weighted Layer Pooling
+- Multi-Sample Dropout
+- Adversarial Weight Perturbation (AWP)
+
+### Training Techniques
+- AdamW Optimizer
+- Cosine Learning Rate Scheduler
+- Gradient Accumulation
+- Label Smoothing
+
+### Data Handling
+- Pandas
+- NumPy
+- Custom text normalization pipeline
+
+### Hardware
+- NVIDIA GPU (single-GPU training)
+- Optimized for low VRAM via accumulation
 
 ---
 
