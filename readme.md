@@ -27,8 +27,7 @@ The approach focuses on contextual understanding, robustness to noisy language, 
 10. Repository Structure  
 11. Setup and Usage  
 12. Limitations  
-13. Conclusion  
-14. License  
+13. Conclusion    
 
 ---
 
@@ -107,7 +106,7 @@ The goal is not only high accuracy but **robust decision boundaries**.
 
 ### 5.1 Backbone
 
-- Model: `microsoft/deberta-v3-large`
+- Model: `microsoft/deberta-v3-base`
 - Hidden size: 1024
 - Full hidden-state outputs enabled
 
@@ -207,3 +206,25 @@ The inference script performs preprocessing, tokenization, and classification in
 ├── model.py          # Model definition
 ├── requirements.txt  # Dependencies
 └── README.md
+```
+
+## 11. Setup & Usage
+
+### Environment Setup
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux / macOS
+venv\Scripts\activate         # Windows
+pip install -r requirements.txt
+```
+## 12. Limitations
+👉The model may struggle with extremely short or context-free messages
+👉Cultural and regional slang not present in training data can affect accuracy
+👉Binary classification does not capture degrees or categories of extremism
+
+## 13. Conclusion
+
+This project demonstrates that robust extremism detection requires more than keyword filtering.
+Contextual modeling, regularization, and disciplined training strategies are essential for handling noisy, real-world social media text.
+
+The results validate the effectiveness of combining large pretrained transformers with stability-focused enhancements.
